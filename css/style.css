@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  body{
+    font-family: "Inter", sans-serif;
+    /* background: #f7f7f7; */
+    background: #d0c4c4;
+  }
+  .gateways{
+    background: #d0c4c4;
+  }
+  .container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .header{
+    background: #d0c4c4;
+  }
+  a{
+    text-decoration: none;
+  }
+  ul li{
+    list-style: none;
+  }
+  .dflex{
+    display: flex;
+  }
+  .logo img{
+    max-width: 40%;
+    width: 100%;
+  }
+  .header-content{
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header{
+    padding: 15px 0 0;
+    border-bottom: 1px solid #cab8b8;
+  }
+  .menu li.active i{
+     
+    background: #f75959;
+    border-radius: 30px;
+    padding: 10px;
+
+  }
+  .menu li{
+    margin-left: 30px;
+  }
+  .hosts li{
+    margin-left: 20px;
+  }
+  .menu li i, .hosts i{
+    
+    background: #e0d6d6;
+    border-radius: 30px;
+    padding: 10px;
+
+  }
+  .logo{
+    flex-basis: 20%;
+  }
+  .menu li a, .host h6{
+    color: #6a6363;
+    text-transform: capitalize;
+    font-size: 13px;
+  }
+  .host{
+    align-items: center;
+  }
+  .menu li.active{
+    padding: 0 0 15px;
+    border-bottom: 2px solid #f75959;
+  }
+  .home-box{
+    flex-basis: 20%;
+  }
+  .homes{
+    padding: 40px 0;
+  }
+  .home-head h2{
+    
+    color: #313b46;
+    font-weight: 500;
+    font-size: 23px;
+    margin-bottom: 20px;
+
+  }
+  .home-boxhead{
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .home-inner p{
+    
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-bottom: 13px;
+
+  }
+  .home-inner h2{
+    font-size: 18px;
+    color: #2a2626;
+    font-weight: 500;
+    margin-bottom: 13px;
+  }
+  .price{
+    font-size: 12px;
+    margin-left: 10px;
+    display: inline-block;
+  }
+  .home-inner img{
+    
+  
+    width: 100%;
+
+  }
+  .home-box{
+    margin: 0 10px;
+    
+    border: 1px solid rgb(216, 208, 208);
+    border-radius: 5px;
+
+  }
+  .home-wrap{
+    
+    padding: 12px 10px;
+
+  }
+  .guest{
+    
+    background:#1d6288;
+    padding: 5px 10px;
+    border-radius: 16px;
+    font-size: 10px;
+    text-transform: capitalize;
+    color: #e7e0e0;
+
+  }
+  .guest i{
+    margin-right: 5px;
+  }
+  .rate{
+    
+    background: #e3cdd5;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 10px;
+
+  }
+  .heart i{
+    
+    color: red;
+    padding: 5px;
+    border-radius: 15px;
+    background: #eacfe5;
+    font-size: 10px;
+
+  }
+  .tabs {
+    width: 100%;
+    padding: 20px 0;
+  }
+  ul#tabs-nav {
+    list-style: none;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+ .gateways{
+  
+  /* background: #ddd3e3; */
+  padding: 50px 0;
+
+ }
+  ul#tabs-nav li.active {
+ color: #04203e;
+ border-bottom: 1px solid #2a2626;
+    padding: 0 0 10px;
+  }
+  
+  #tabs-nav li a{
+    margin-right: 15px;
+    color: #0d0761;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+}
+  
+  .tab-content {
+    padding: 10px;
+   
+  }
+  
+  /* Just for CodePen styling - don't include if you copy paste */
+ 
+  
+  .gateway-box{
+    
+    flex-basis: 16.6%;
+
+  }
+  .gateway-box h6{
+    text-transform: capitalize;
+    font-size: 13px;
+    color: #313b46;
+    margin-bottom: 5px;
+  }
+  .gateway-box p{
+    color: #6a6363;
+    font-size: 13px;
+  }
+  .gateways-content{
+    margin-bottom: 20px;
+  }
+  .services-box{
+    flex-basis: 33.33%;
+    padding: 0 20px;
+  }
+  .services-box p{
+    
+    font-size: 13px;
+    margin-bottom: 10px;
+
+  }
+  .services-box h4{
+    
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+  }
+.services{
+  
+  background: #d0c4c4;
+  padding: 50px 0;
+
+}
+.search-con{
+  
+   
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    
+    padding: 10px;
+    border: 1px solid #ebcfcf;
+    border-radius: 40px;
+
+
+}
+.search{
+  padding: 30px 0;
+}
+.search-con li{
+ 
+    margin-left: 30px;
+    padding: 0 20px;
+
+}
